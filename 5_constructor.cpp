@@ -23,6 +23,6 @@ int return_price(){
 
 
  int main(){
-    car obj
+    car obj;
 
  }
