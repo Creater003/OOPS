@@ -23,10 +23,14 @@ int main(){
     car *newobj = new car;
 
 
-        //here we cannot access the dynamic object like static object we have to give indentation in order to access it
-        cout<<"name of the car is"<< (*newobj).getname();
-        cout<<"price of the car is "<<(*newobj).get_price();
-            
+        //here we cannot access the dynamic object like static object we have to derefference in order to access it
+        cout<<"name of the car is"<< (*newobj).getname()<<endl;
+        cout<<"price of the car is "<<(*newobj).get_price()<<endl;
+
+        //ther os another method to access it 
+
+        cout<<"name of the car is "<<newobj->getname()<<endl;            
+        cout<<"name of the car is "<<newobj->get_price()<<endl;            
  return 0;
 
 
